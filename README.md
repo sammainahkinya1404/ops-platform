@@ -12,6 +12,26 @@ A multi-tenant incident management platform built with Next.js, Prisma, and Post
 - **Testing**: Jest + Testing Library
 - **Language**: TypeScript
 
+## Screenshots
+
+### Homepage - Tenant Selection
+![Homepage](./demo/homepage.png)
+
+### Admin Page - Login
+![Admin Page](./demo/Admin%20Page.png)
+
+### ACME Dashboard
+![ACME Dashboard](./demo/ACME%20Dashboard.png)
+
+### Incidents List
+![Incidents](./demo/Incidents.png)
+
+### Feature Flags
+![Feature Flags](./demo/Feature%20Flags.png)
+
+### Feature Evaluation Tool
+![Feature Evaluation Tool](./demo/Feature%20Evaluation%20Tool.png)
+
 ## Prerequisites
 
 - Node.js 18+
