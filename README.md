@@ -20,13 +20,20 @@ A multi-tenant incident management platform built with Next.js, Prisma, and Post
 
 ## Getting Started
 
-### 1. Clone and Install Dependencies
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/sammainahkinya1404/ops-platform.git
+cd ops-platform
+```
+
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Start the Database
+### 3. Start the Database
 
 Start PostgreSQL using Docker Compose:
 
@@ -41,7 +48,7 @@ This starts a PostgreSQL 16 container with:
 - **User**: postgres
 - **Password**: 1234
 
-### 3. Configure Environment Variables
+### 4. Configure Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -51,19 +58,19 @@ AUTH_SECRET="your-super-secret-key-change-this-in-production"
 AUTH_URL="http://localhost:3000"
 ```
 
-### 4. Generate Prisma Client
+### 5. Generate Prisma Client
 
 ```bash
 npx prisma generate
 ```
 
-### 5. Run Database Migrations
+### 6. Run Database Migrations
 
 ```bash
 npx prisma migrate dev
 ```
 
-### 6. Seed the Database
+### 7. Seed the Database
 
 ```bash
 npx prisma db seed
@@ -79,7 +86,7 @@ This creates sample data:
 - **45 Incidents** with timeline events
 - **30 Feature flags** across environments
 
-### 7. Start the Development Server
+### 8. Start the Development Server
 
 ```bash
 npm run dev
